@@ -1,0 +1,22 @@
+# install crypto and Google API library
+$ pip install pycrypto
+$ pip install --upgrade google-api-python-client
+
+# generate secrets  
+1. Go to the https://console.developers.google.com/
+2. Create 'uploader' project
+3. In the sidebar on the left, expand APIs & auth. Next, click APIs. Select the Enabled APIs link in the API section to see a list of all your enabled APIs. Make sure that the Drive API is on the list of enabled APIs. If you have not enabled it, select the API from the list of APIs, then select the Enable API button for the API.
+4. In the sidebar on the left, select Credentials.
+  - under the OAuth heading, select Create new Client ID.
+  - when prompted, select Service Account and click Create Client ID.
+  - a dialog box appears. To proceed, click Okay, got it.
+  - generate new P12 key, download and store uploader-*.p12 file under your project directory (e.g. GDriveUploader)
+  - cut and paste from Google Developers Console email of service account and path to private key into uploader.json
+        USER_EMAIL = 'User email address'
+        SERVICE_ACCOUNT_EMAIL='Service Email address'  # from OAuth section in 
+        SERVICE_ACCOUNT_PKCS12_FILE_PATH = '/path/to/uploader-*.p12'
+
+
+
+  
+  
