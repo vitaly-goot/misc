@@ -1,0 +1,29 @@
+{
+    "version": 1,
+    "disable_existing_loggers": false,
+
+    "handlers": {
+        "console": {
+            "class": "logging.StreamHandler",
+            "level": "DEBUG"
+        }
+    },
+
+    "loggers": {
+        "GDriveUploader": {
+            "level": "DEBUG",
+            "handlers": ["console"],
+            "propagate": "no"
+        },
+        "GDriveUploader.wrapper": {
+            "level": "DEBUG",
+            "handlers": ["console"],
+            "propagate": "no"
+        },
+        "GDriveUploader.tlog": {
+            "level": "ERROR",
+            "handlers": ["console"],
+            "propagate": "no"
+        }
+    }
+}

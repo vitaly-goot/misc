@@ -1,0 +1,55 @@
+{
+    "user_mail": "vitaly.goot@gmail.com",
+    "service_mail": "430571788972-e453it12vp1h4p56rji9m5h2b9pgdfuj@developer.gserviceaccount.com",
+    "key": "uploader-eebc72f9df5d.p12",
+    "nworkers":10,
+    "directory": [
+      {
+        "sourceDir": "/home/vgoot/PVIEW/GDriveUploader",
+        "targetDir": "automaticUpload/vgoot/GDriveUploader",
+        "recursive": "yes"
+      },
+      {
+        "sourceDir": "/home/vgoot/PVIEW/vimerl-1.4.1",
+        "targetDir": "automaticUpload/vgoot/vimerl-1.4.1",
+        "recursive": "no"
+      },
+      {
+        "sourceDir": "/home/vgoot/PVIEW/vimerl-1.4.1",
+        "targetDir": "automaticUpload/vgoot/test1",
+        "recursive": "yes"
+      },
+      {
+        "sourceDir": "/home/vgoot/PVIEW/vimerl-1.4.1",
+        "targetDir": "automaticUpload/vgoot/test2",
+        "recursive": "no"
+      },
+      {
+        "sourceDir": "/home/vgoot/PVIEW/vimerl-1.4.1",
+        "targetDir": "automaticUpload/vgoot/test2",
+        "recursive": "yes"
+      },
+      {
+        "sourceDir": "/home/vgoot/PVIEW/vimerl-1.4.1",
+        "targetDir": "automaticUpload/vgoot/test3",
+        "recursive": "no"
+      }
+    ],
+   "file": [
+      {
+        "sourceFile": "/home/vgoot/PVIEW/GDriveUploader/README",
+        "targetDir": "automaticUpload/vgoot/GDriveUploader",
+        "title": "1"
+      },
+      {
+        "sourceFile": "/home/vgoot/PVIEW/GDriveUploader/README",
+        "targetDir": "automaticUpload/vgoot/GDriveUploader",
+        "title": "2"
+      },
+      {
+        "sourceFile": "/home/vgoot/PVIEW/GDriveUploader/README",
+        "targetDir": "automaticUpload/vgoot/GDriveUploader",
+        "title": "2"
+      }
+    ]    
+}
